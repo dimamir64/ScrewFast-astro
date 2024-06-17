@@ -6,9 +6,9 @@ import AuthBtn from "@components/ui/buttons/AuthBtn.astro";
 // Config object for customization of the component
 const config = {
   id: "hs-toggle-between-modals-recover-modal", // Modal identifier
-  title: "Forgot password?", // Main heading
-  subTitle: "Remember your password?", // Sub-heading text
-  loginBtn: "Sign in here", // Text for login button
+  title: "Забыли пароль?", // Main heading
+  subTitle: "Помните свой пароль?", // Sub-heading text
+  loginBtn: "Войти", // Text for login button
   loginBtnDataHS: "#hs-toggle-between-modals-login-modal", // Target link for login button
 };
 ---
@@ -53,7 +53,7 @@ const config = {
                 <!-- Email input field imported from EmailInput component -->
                 <EmailInput id="recover-email" errorId="recover-email-error"/>
                 <!-- Reset password button imported from AuthBtn component -->
-                <AuthBtn title="Reset password" />
+                <AuthBtn title="Сбросить пароль" />
               </div>
             </form>
           </div>

@@ -1,5 +1,5 @@
 ---
-const { label = Astro.currentLocale === "fr" ? "Adresse e-mail" : "Email address", id, errorId } = Astro.props;
+const { label = Astro.currentLocale === "fr" ? "Adresse e-mail" : "Email адрес", id, errorId } = Astro.props;
 
 interface Props {
   label?: string;
@@ -46,6 +46,6 @@ interface Props {
   </div>
   <!-- Validation message which is hidden by default -->
   <p class="mt-2 hidden text-xs text-red-600" id={errorId}>
-    Please include a valid email address so we can get back to you
+    Пожалуйста, укажите действительный адрес электронной почты, чтобы мы могли с вами связаться
   </p>
 </div>

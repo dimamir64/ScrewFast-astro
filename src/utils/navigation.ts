@@ -1,28 +1,28 @@
 // An array of links for navigation bar
 const navBarLinks = [
-  { name: "Home", url: "/" },
-  { name: "Products", url: "/products" },
-  { name: "Services", url: "/services" },
-  { name: "Blog", url: "/blog" },
-  { name: "Contact", url: "/contact" },
+  { name: "Главная", url: "/" },
+  { name: "Продукты", url: "/products" },
+  { name: "Услуги", url: "/services" },
+  { name: "Блог", url: "/blog" },
+  { name: "Контакты", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
   {
-    section: "Ecosystem",
+    section: "Экосистема",
     links: [
-      { name: "Documentation", url: "/welcome-to-docs/" },
-      { name: "Tools & Equipment", url: "/products" },
-      { name: "Construction Services", url: "/services" },
+      { name: "Документация", url: "/welcome-to-docs/" },
+      { name: "Инструменты и оборудование", url: "/products" },
+      { name: "Строительные услуги", url: "/services" },
     ],
   },
   {
-    section: "Company",
+    section: "Компания",
     links: [
-      { name: "About us", url: "#" },
-      { name: "Blog", url: "/blog" },
-      { name: "Careers", url: "#" },
-      { name: "Customers", url: "#" },
+      { name: "О нас", url: "#" },
+      { name: "Блог", url: "/blog" },
+      { name: 'Карьера', url: "#" }, 
+      { name: "Клиенты", url: "#" },
     ],
   },
 ];
@@ -30,7 +30,7 @@ const footerLinks = [
 const socialLinks = {
   facebook: "https://www.facebook.com/",
   x: "https://twitter.com/",
-  github: "https://github.com/mearashadowfax/ScrewFast",
+  github: "https://github.com/",
   google: "https://www.google.com/",
   slack: "https://slack.com/",
 };
